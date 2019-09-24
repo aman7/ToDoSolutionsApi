@@ -66,7 +66,7 @@ namespace ToDoSolutionsApi.repository
         public void addProposedTask(ProposedTask proposedTask)
         {
             _context.proposedTasks.Add(proposedTask);
-            _context.SaveChanges();
+            
         }
 
         public void updateProposedTask(ProposedTask proposedTask)
